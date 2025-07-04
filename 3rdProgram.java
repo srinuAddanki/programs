@@ -7,7 +7,7 @@ class Solution {
                 sri.append((char)('a'+(sri.charAt(i)-'a'+1)%26));   // it's little bit confusing i need to understand it.
             }
         }
-        return sri.charAt(k-1);
+        return sri.charAt(k-1); //return
         
     }
 }
